@@ -32,7 +32,7 @@ c=np.array(b).tolist()
 
 import sqlite3
 
-conn = sqlite3.connect("sqlite.db")  # или :memory: чтобы сохранить в RAM
+conn = sqlite3.connect("sqlite.db")
 cursor = conn.cursor()
 #cursor.execute("DROP TABLE tablegost2")
 # cursor.execute("""CREATE TABLE tablegost2
